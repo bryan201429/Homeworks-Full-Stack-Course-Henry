@@ -42,8 +42,8 @@ function DecimalABinario(num) {
     bin.push(res);
     num=Math.floor(num/2);
   }
+  console.log('Hola');
   return bin.reverse().join('');
-
 }
 
 module.exports = {
